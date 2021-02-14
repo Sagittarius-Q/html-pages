@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 500;
+
+}
+.main-frame{
+    display: flex;
+
+}
+.left{
+    display:block;
+    height: 700px;
+    width: 50%;
+    background-image: url("creativity.jpg");
+    background-size: cover;
+}
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form h1{
+    text-align: center;
+}
+input{
+    height: 20px;
+    margin: 8px;
+}
+form label{
+    margin: 5px;
+}
+.sign-btn{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.social-box{
+    margin-left: 25px;
+}
+
+.social ,.left-section{
+   margin: 17px;
+}
